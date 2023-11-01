@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 20px;
+    color:white;
+  }
+  
+  html,
+  body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mainBox
+  {
+    margin-top: 100px;
+    width:300px;
+    height: 400px;
+    background-color: #2f4747;
+    border-radius: 10%;
+    position: relative;
+    box-shadow: 0 0 10px 5px #5c8f8f;
+  }
+
+  .mainEvents
+  {
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    width: 250px;
+    height: 100px;
+    display: flex;
+    text-align: center;
+  }
+
+  .kilometers
+  {
+    width: 70px;
+    height: 70px;
+    background-color: #648686;
+    float:left;
+    box-shadow: 0 0 10px 5px #85bdbd;
+    border-radius: 15%;
+  }
+
+  .weight
+  {
+    width: 100px;
+    height: 70px;
+    background-color: #648686;
+    float:left;
+    margin-left: 20px;
+    box-shadow: 0 0 10px 5px #85bdbd;
+    border:none;
+    border-radius: 15%;
+  }
+
+  .addKilometer
+  {
+    width: 150px;
+    height: 60px;
+    background-color: #648686;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0 0 10px 5px #85bdbd;
+  }
+
+  .result
+  {
+    box-shadow: 0 0 10px 5px #85bdbd;
+    width:200px;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #648686;
+    margin: auto;
+    margin-top: 30px;
+    flex-direction: column;
+    border-radius: 15%;
+  }
+
+  .weightAmount
+  {
+    display: flex;
+    width:70px;
+    height: 30px;
+    background-color: #648686;
+    border:none;
+    margin: auto;
+    align-items: center;
+    color:rgb(162, 247, 148);
+    margin-top: 10px;
+  }
+
+ .kmAmount
+  {
+    display: flex;
+    width:55px;
+    height: 30px;
+    background-color: #648686;
+    border:none;
+    margin: auto;
+    align-items: center;
+    color:rgb(162, 247, 148);
+    margin-top: 10px;
+  }
+
+  .kmAmount:hover
+  {
+    cursor: pointer;
+  }
+
+  .weightAmount:hover
+  {
+    cursor: pointer;
+  }
+
+
+
+  .enter
+  {
+    display: flex;
+    box-shadow: 0 0 10px 5px #bae0e0;
+    width:70px;
+    height:25px;
+    justify-content: center;
+    text-align: center;
+    background-color: #648686;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 15%;
+    font-size: 15px;
+  }
+
+  .price
+  {
+    margin: auto;
+    color:rgb(162, 247, 148);
+    text-align: center;
+    width:100px;
+    height: 50px;
+    margin-top: 5px;
+    font-size: 30px;
+  }
+  
+  .textPrice
+  {
+    margin: auto;
+    color:rgb(162, 247, 148);
+    text-align: center;
+    width:100px;
+    height: 30px;
+  }
+
+  .addKmText
+  {
+    margin-top: 2px;
+    color:rgb(162, 247, 148);
+  }
+
+  .enter:hover
+  {
+    background-color: #5c8f8f;
+    color:rgb(60, 87, 56);
+    cursor: pointer;
+  }
+
+  .end
+  {
+    display: flex;
+    box-shadow: 0 0 10px 5px #bae0e0;
+    width:70px;
+    height:25px;
+    justify-content: center;
+    text-align: center;
+    background-color: #65a5a5;
+    border-radius: 15%;
+    font-size: 15px;
+    margin:auto;
+    margin-top: 20px;
+  }
+
+  .end:hover
+  {
+    display: flex;
+    background-color: #5c8f8f;
+    color:rgb(165, 123, 45);
+    cursor: pointer;
+  }
