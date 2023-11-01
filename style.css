@@ -40,9 +40,7 @@
   {
     width: 70px;
     height: 70px;
-    background-color: #648686;
     float:left;
-    box-shadow: 0 0 10px 5px #85bdbd;
     border-radius: 15%;
   }
 
@@ -50,10 +48,8 @@
   {
     width: 100px;
     height: 70px;
-    background-color: #648686;
     float:left;
     margin-left: 20px;
-    box-shadow: 0 0 10px 5px #85bdbd;
     border:none;
     border-radius: 15%;
   }
@@ -62,21 +58,21 @@
   {
     width: 150px;
     height: 60px;
-    background-color: #648686;
     margin: auto;
     text-align: center;
-    box-shadow: 0 0 10px 5px #85bdbd;
+  }
+
+  .addKmText{
+    font-size: 25px;
   }
 
   .result
   {
-    box-shadow: 0 0 10px 5px #85bdbd;
     width:200px;
     height:100px;
     display: flex;
     justify-content: center;
     text-align: center;
-    background-color: #648686;
     margin: auto;
     margin-top: 30px;
     flex-direction: column;
@@ -86,27 +82,34 @@
   .weightAmount
   {
     display: flex;
-    width:70px;
-    height: 30px;
-    background-color: #648686;
+    width:80px;
+    height: 40px;
+    background-color:#2f4747;
     border:none;
     margin: auto;
     align-items: center;
     color:rgb(162, 247, 148);
     margin-top: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px 5px #5c8f8f;
+    border-radius: 15px;
   }
 
  .kmAmount
   {
     display: flex;
-    width:55px;
-    height: 30px;
+    width:80px;
+    height: 40px;
     background-color: #648686;
     border:none;
     margin: auto;
     align-items: center;
     color:rgb(162, 247, 148);
     margin-top: 10px;
+    text-align: center;
+    background-color:#2f4747;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 5px #5c8f8f;
   }
 
   .kmAmount:hover
@@ -141,7 +144,7 @@
     margin: auto;
     color:rgb(162, 247, 148);
     text-align: center;
-    width:100px;
+    width:200px;
     height: 50px;
     margin-top: 5px;
     font-size: 30px;
